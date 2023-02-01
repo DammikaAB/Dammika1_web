@@ -1,25 +1,26 @@
 <?php 
-echo $title = "PHP is interesting”
-
-include "header.php"?>
-
-<body>
-    <h1>3.1 Write a simple PHP script to print your information (Name and your groupid). </h1>
-    
+$title = "Exaercise: HAMK oy";
+include "header.php" ?>
+    <h3>3.1 Write a simple PHP script to print your information (Name and your groupid).</h3>
 <?php
-echo "Dammika A Bandara";
-echo "BBCAP22";
+echo "Dammika A Bandara <br>";
+echo "BBCAP_Team16";
 ?>
-    <h1>3.2 Write PHP code to display the following message. </h1>
+<br><br>
+<h3>3.2 Write PHP code to display the following message.</h3>
 <?php
-echo "Hello world! My name is \"Dammika A BAndara\"";
-?><h3>3.3 Write the PHP code in to display the current date.</h3>
+echo "Hellow world ! My name is \"Dammika\"";
+?>
+<br><br>
+<h3>3.3 Write the PHP code in to display the current date.</h3>
 <?php echo date("d.m.Y") ?>
+<br><br>
 <h3>3.4 PHP is interesting”. </h3>
 <?php
 $title1 = "PHP is interesting";
 echo "<h1>" . $title1 . "</h1>";
 ?>
+<br><br>
 <h3>3.5 Table and Variables</h3>
 <?php
 $g1 = 5;
@@ -41,6 +42,7 @@ echo "
 ";
 
 ?>
+<br><br>
 <h3>4 Screenshot of the development environment</h3>
-<img src="image1.jpg" alt="">
+<img src="Docker.png" alt="">
 <?php include "footer.php" ?>
