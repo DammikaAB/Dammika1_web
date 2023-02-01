@@ -18,7 +18,7 @@ echo "Hello world! My name is \"Dammika\"";
 
 <?php echo date("m.d.Y")?>
 <?php
- $title = "PHP is interesting” Put this variable as a title marked as h1 (heading 1) in your HTML document. 
+ echo $title = "PHP is interesting” Put this variable as a title marked as h1 (heading 1) in your HTML document. 
 
 
 <?php include "footer.php"?>
